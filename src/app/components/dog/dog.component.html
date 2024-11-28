@@ -1,13 +1,19 @@
-
 <body>
    
     <header class="header">
         <h1> WELCOME TO THE API DOG PAGE </h1>
     </header>
+
+    <button (click)="getIMG()"> GENERATE NEW DOG </button>
+    
     <section>
-        <img src="https://images.squarespace-cdn.com/content/v1/54822a56e4b0b30bd821480c/51fe71a3-cb12-4ac2-882f-45955401dd53/Golden+Retrievers+dans+pet+care.jpeg?format=500w" alt="">
+
+        @if (imageUrl) {
+            <img [src]='imageUrl' alt="randomDog" />
+        }
+      
+        
     </section>
-    <button> GENERATE NEW DOG </button>
 
 </body>
 
