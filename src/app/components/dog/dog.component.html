@@ -4,15 +4,14 @@
         <h1> WELCOME TO THE API DOG PAGE </h1>
     </header>
 
-    <button (click)="getIMG()"> GENERATE NEW DOG </button>
+    <button (click)="getIMG()" class="button"> GENERATE DOG </button>
     
     <section>
 
         @if (imageUrl) {
-            <img [src]='imageUrl' alt="randomDog" />
+            <img [src]='imageUrl' alt="randomDog" class="dogImg"/>
         }
       
-        
     </section>
 
 </body>

@@ -1,0 +1,45 @@
+.header{
+    font-family: Arial, sans-serif;
+    display: flex;
+    max-height: 70px;
+    background-color: rgba(0, 204, 255, 0.445);
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+    max-width: 800px;
+    margin:0 auto;
+    color: rgb(255, 255, 255);
+    border: 1px solid #a2cadd75;
+}
+
+.button{
+    font-family: Arial, sans-serif;
+    display: flex;
+    max-height: 70px;
+    background-color: rgba(95, 101, 102, 0.247);
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+    max-width: 800px;
+    margin:0 auto;
+    color: rgb(255, 255, 255);
+    border: 1px solid #a2cadd75;
+    margin-top: 20px;
+}
+
+.button:hover{
+    background-color: #00ff6270;
+    cursor: pointer;
+    transform: scale(1.1); /*LO HACE MAS GRANDE CUANDO PASAS EL MOUSE */
+}
+
+.dogImg{
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 1px solid #a2cadd75;
+   max-width: 500px;
+   max-height: 500px;
+}

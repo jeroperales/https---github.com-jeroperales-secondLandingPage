@@ -9,7 +9,7 @@ export class DogAPIService {
 
   constructor() { }
 
-  private baseUrl = 'https://dog.ceo/api/breeds/image/random';
+  private baseUrl = 'https://dog.ceo/api/breed/bulldog/images/random';
 
   http = inject(HttpClient);
 

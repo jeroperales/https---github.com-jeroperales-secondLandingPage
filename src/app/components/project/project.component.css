@@ -50,7 +50,7 @@ body {
 }
 
 .card-front {
-    background-color: #0000007e;
+    background-color: rgba(0, 204, 255, 0.219);;
     color: #ffffff;
     backdrop-filter: blur(3px);
 }
@@ -82,3 +82,4 @@ body {
 .btn:hover {
     background-color: #084c8d;
 }
+
