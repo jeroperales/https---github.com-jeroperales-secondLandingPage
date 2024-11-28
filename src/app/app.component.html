@@ -4,10 +4,12 @@
 
 </head>
 <body>
-    <app-navbar> </app-navbar>
-    <router-outlet> </router-outlet>
-</body>
+    <div class="background-container" (mousemove)="onMouseMove($event)" (mouseleave)="resetBackground()">
+      <app-navbar> </app-navbar>
+      <router-outlet> </router-outlet>
+    </div>
 
+</body>
 
 </html>
 

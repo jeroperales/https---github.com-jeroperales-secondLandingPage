@@ -1,8 +1,26 @@
-body {
-    background-image: url('https://i.makeagif.com/media/12-04-2018/IxHq7M.gif');
-    background-size: cover;
-    height: 100vh;
-    padding:0;
-    margin:0;
+body, html {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Esto evita que la página se desplace horizontalmente */
+  background-color: #000; /* Si quieres que el fondo de la página sea negro, puedes establecerlo */
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background-container {
+  position:absolute;
+  width: 100%;
+  height: 100vh; 
+  background-image: url('https://images.pexels.com/photos/9665178/pexels-photo-9665178.jpeg?cs=srgb&dl=pexels-cottonbro-9665178.jpg&fm=jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: background-position 0.1s ease-out;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
