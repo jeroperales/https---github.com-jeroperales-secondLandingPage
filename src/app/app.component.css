@@ -1,25 +1,24 @@
-body, html {
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden; /* Esto evita que la página se desplace horizontalmente */
-  background-color: #000; /* Si quieres que el fondo de la página sea negro, puedes establecerlo */
-}
+
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-size: cover;
+
 }
 
 .background-container {
-  position:absolute;
+  position: absolute;
   width: 100%;
   height: 100vh; 
   background-image: url('https://images.pexels.com/photos/9665178/pexels-photo-9665178.jpeg?cs=srgb&dl=pexels-cottonbro-9665178.jpg&fm=jpg'); 
-  background-size: cover; 
-  background-repeat: no-repeat;
-  background-position: center;
+  background-size: cover; /* Ensures image fills the container */
+  background-repeat: no-repeat; /* Prevents repeating */
+  background-position: center; /* Centers the image */
   transition: background-position 0.1s ease-out;
   top: 0;
   left: 0;
+  margin: 0;
+  padding: 0;
 }
